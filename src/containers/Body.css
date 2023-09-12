@@ -1,0 +1,40 @@
+main ul {
+  /* list-style-type: none; */
+  display: block;
+  /* justify-content: start; */
+  /* gap: 10px; */
+}
+
+main ul h1 {
+  margin-right: 50%;
+  margin-left: 10%;
+}
+
+main ul h1:hover {
+    background-color: #000033;
+    color: white;
+}
+
+main ul h2 {
+    justify-content: flex-end;
+}
+
+ul li:hover .first-level:hover {
+  color: white;
+  background-color: #000033;
+  transition: all 0.5s ease-in;
+}
+
+.main-ul ul {
+  display: none;
+}
+
+ul li:hover > ul {
+  display: flex;
+  background-color: rgb(205, 205, 255);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
